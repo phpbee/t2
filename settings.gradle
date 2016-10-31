@@ -1,4 +1,4 @@
-rootProject.name = 't2'
+rootProject.name = ''
 
 gradle.ext.springVersion = '4.2.2.RELEASE'
 

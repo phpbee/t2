@@ -1,9 +1,9 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>Title</title>
+    <title>Transaction info</title>
 </head>
 <body>
-Hello, ${subject}!
+Transaction # ${transaction}
 </body>
 </html>

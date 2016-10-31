@@ -1,4 +1,4 @@
-package org.phpbee.t2.login;
+package org.phpbee.t2.transaction;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -6,13 +6,13 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
 @Controller
-public class LoginController {
+public class TransactionController {
 
-    private static final String HELLO_VIEW = "hello";
+    private static final String HELLO_VIEW = "transaction";
 
-    @RequestMapping(value = "/hello", method = RequestMethod.GET)
+    @RequestMapping(value = "/transaction", method = RequestMethod.GET)
     public String hello(Model model) {
-        model.addAttribute("subject", "world");
+        model.addAttribute("transaction", "123456");
         return HELLO_VIEW;
     }
 }
