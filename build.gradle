@@ -1,3 +1,7 @@
+plugins {
+    id "org.akhikhl.gretty" version "1.2.4"
+}
+
 version '1.0-SNAPSHOT'
 
 apply plugin: 'war'
@@ -8,4 +12,5 @@ repositories {
 
 dependencies {
     testCompile group: 'junit', name: 'junit', version: '4.11'
+    compile group: 'org.springframework', name: 'spring-webmvc', version: gradle.springVersion
 }

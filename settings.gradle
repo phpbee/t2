@@ -1,2 +1,4 @@
 rootProject.name = 't2'
 
+gradle.ext.springVersion = '4.2.2.RELEASE'
+
